@@ -1,4 +1,4 @@
-In Progress Website for Connor van Wieren
+In progress website for Connor van Wieren
 
 Made using Bootstrap
 
