@@ -4274,7 +4274,7 @@ input, select, textarea {
 				top: 0;
 				left: 0;
 				background: #000;
-				opacity: 0.15;
+				opacity: 0.05;
 			}
 
 			#banner > article .inner {
@@ -4624,4 +4624,83 @@ input, select, textarea {
 					padding: 2.25em 1.25em;
 				}
 
+		}
+
+
+/* Contact */
+
+ul.contact {
+	list-style: none;
+	padding-left: 0;
+	cursor: default;
+}
+
+	ul.contact li {
+		-moz-transition: top .15s ease-in-out;
+		-webkit-transition: top .15s ease-in-out;
+		-ms-transition: top .15s ease-in-out;
+		transition: top .15s ease-in-out;
+		position: relative;
+		display: inline-block;
+		margin: 0.25em 0.25em 0.25em 0.25em;
+		top: 6px;
+		padding-left: 0;
+	}
+
+		ul.contact li a {
+			-moz-transition: background-color .2s ease-in-out;
+			-webkit-transition: background-color .2s ease-in-out;
+			-ms-transition: background-color .2s ease-in-out;
+			transition: background-color .2s ease-in-out;
+			display: block;
+			position: relative;
+			width: 48px;
+			height: 48px;
+			border-radius: 6px;
+			outline: 0;
+			background:  #444;
+			text-align: center;
+		}
+
+			ul.contact li a:before {
+				color: #f2f5f3;
+				font-size: 32px;
+				line-height: 48px;
+			}
+
+		ul.contact li:hover {
+			top: -5px;
+		}
+
+			ul.contact li:hover a.fa-twitter {
+				background-color: #2DAAE4;
+			}
+
+			ul.contact li:hover a.fa-instagram {
+				background-color: #bc2a8d;
+			}
+
+			ul.contact li:hover a.fa-github {
+				background-color: #000000;
+			}
+
+			ul.contact li:hover a.fa-linkedin-in {
+				background-color: #0072B1;
+			}
+
+			ul.contact li:hover a.fa-orcid {
+				background-color: #A9E842;
+			}
+
+			ul.contact li:hover a.fa-researchgate {
+				background-color: #6BE8C4;
+			}
+
+			ul.contact li:hover a.fa-google {
+				background-color: #4285F4;
+			}
+
+
+		ul.contact li:active {
+			top: 0;
 		}
